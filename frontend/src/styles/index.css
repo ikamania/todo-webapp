@@ -1,0 +1,43 @@
+@import 'tailwindcss';
+
+:root {
+    --size-extra-large: 2.5rem;
+    --size-large: 1.7rem;
+    --size-medium: 1.5rem;
+    --size-small: 1rem;
+    --size-extra-small: 0.7rem;
+}
+
+* {
+    @apply font-mono;
+}
+
+.react-icon {
+    @apply cursor-pointer flex-shrink-0 text-gray-500;
+}
+
+.hl {
+    @apply border border-black;
+}
+
+.info-border {
+    @apply border border-gray-200 rounded-[1rem] w-[70%] h-[2rem] p-[.3rem] pl-[.5rem];
+}
+
+.section {
+    @apply pt-[1rem] w-full;
+    font-size: var(--size-small);
+}
+
+.section > p {
+    @apply text-gray-600;
+}
+
+.section-list {
+    @apply pl-[.5rem] flex flex-col gap-[.35rem];
+}
+
+.section-title {
+    @apply pb-[0.2rem] select-none;
+}
+
